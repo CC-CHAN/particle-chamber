@@ -4,7 +4,7 @@ check lines below start with 🚀 for comments of those questions.
 ```
 Instruction: Try to implement the below problment Statement in Java and if time permits do it in Python as well. 
 
-🚀 I will implement this problem using only Java with 2 approaches [POST /animate] and [POST /animate-para], check the source code for more details.
+🚀 I will implement this problem using only Java with 2 approaches [GET /animate] and [GET /animate-para], check the source code for more details.
 
 Can you think of how to extend the scope of the problem? 
 
