@@ -1,8 +1,20 @@
+check lines below start with 🚀 for comments of those questions.
+
+
 ```
 Instruction: Try to implement the below problment Statement in Java and if time permits do it in Python as well. 
+
+🚀 I will implement this problem using only Java with 2 approaches [POST /animate] and [POST /animate-para], check the source code for more details.
+
 Can you think of how to extend the scope of the problem? 
+
+🚀 @see https://en.wikipedia.org/wiki/N-body_problem
+
 Do you think Java solution to the above problem can be implementd with Spring boot in a better way? 
 If answer is yes do it. if anser is no, explain. 
+
+🚀 I am going to use spring boot since it is easier to set API server up.
+
 Submit your code for our review either by checkin to your own public github repo (and share your repo URL) or send us by email.
 
 Problem Statement
