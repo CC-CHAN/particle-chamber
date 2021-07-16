@@ -14,14 +14,24 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class AnimateController {
 
+    /**
+     * get speed from json body, assume input is always valid
+     * 
+     * @param payload
+     * @return
+     */
     private int getSpeed(Map<String, Object> payload) {
-        // TODO
-        return 0;
+        return (int) payload.get("speed");
     }
 
+    /**
+     * get chamber map from json body, assume input is always valid
+     * 
+     * @param payload
+     * @return
+     */
     private String getInit(Map<String, Object> payload) {
-        // TODO
-        return "";
+        return (String) payload.get("init");
     }
 
     @GetMapping("/animate")
