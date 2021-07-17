@@ -42,6 +42,10 @@ Alternatively you can develop a webservice taking inputs as JSON and returning a
 curl -X GET "http://server:port/animate" \
     -H "Content-Type: application/json" \
     -d '{ "speed": 2, "init": "LR..RL" }'
+
+🚀 curl -X GET "http://localhost:8080/animate" -H "Content-Type: application/json" -d '{ "speed": 1, "init": "LRRL.LR.LRR.R.LRRL." }'
+🚀 curl -X GET "http://localhost:8080/animate-para" -H "Content-Type: application/json" -d '{ "speed": 1, "init": "LRRL.LR.LRR.R.LRRL." }'
+
 Constraints
 You may assume the following constraints:
 •	speed will be between 1 and 10 inclusive

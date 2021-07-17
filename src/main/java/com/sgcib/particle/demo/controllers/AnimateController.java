@@ -36,7 +36,7 @@ public class AnimateController {
 
     @GetMapping("/animate")
     @ResponseBody
-    List<String> animate(@RequestBody Map<String, Object> payload) {
+    public List<String> animate(@RequestBody Map<String, Object> payload) {
         var speed = getSpeed(payload);
         var init = getInit(payload);
         return Animate.animate(speed, init);
@@ -44,7 +44,7 @@ public class AnimateController {
 
     @GetMapping("/animate-para")
     @ResponseBody
-    List<String> animateParallel(@RequestBody Map<String, Object> payload) {
+    public List<String> animateParallel(@RequestBody Map<String, Object> payload) {
         var speed = getSpeed(payload);
         var init = getInit(payload);
         return AnimateParallel.animate(speed, init);
